@@ -49,15 +49,19 @@
             width: 1255px;
             display: flex;
             margin: auto;
-            justify-content: space-between;
-            align-items: flex-start;
+            flex-direction: column;
+            /*justify-content: space-between;*/
+            /*align-items: flex-start;*/
             padding-top: 0px;
         }
         .home {
             display: flex;
             /*justify-content: space-between;*/
             align-items: flex-start;
+            margin-right: 65px;
             margin-left: 65px;
+            margin-bottom: 25px;
+            margin-top: 25px;
         }
         .home .homeContent1 {
             display: flex; /* 使用 Flexbox */
@@ -102,8 +106,8 @@
         .portfolio{            
             color: #40434a;
             font: 700 150px/91.3% 'NotoSansTc-Bold', sans-serif;
-            width: 604px;
-            height: 344px;
+            width: 455px;
+            height: 270px;
             padding-left: 0px;
         }
         main div ul {
@@ -120,4 +124,8 @@
         main div ul li a img {
             width: 44px;
             height: 44px;
+        }
+        .aboutMe{
+            margin-top: 20px;
+            text-align: center;
         }
