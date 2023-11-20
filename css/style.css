@@ -145,6 +145,22 @@
             height: 44px;
         }
         .aboutMe{
+            margin-top: 85px;
+            text-align: center;
+        }
+        .aboutme_container{
+            margin-top: 20px;
+            height: 520px;
+            background-color: #edeff4;
+        }
+        .myWorks{
+            margin-top: 85px;
             margin-top: 20px;
             text-align: center;
+        }
+        .myworks_container{
+            margin-top: 20px;
+            height: 520px;
+            background-color: #edeff4;
+            margin-bottom: 10px;
         }
