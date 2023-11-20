@@ -110,6 +110,23 @@
             height: 270px;
             padding-left: 0px;
         }
+        .home-right {
+            position: relative;
+            width: 600px;
+            height: 520px;
+        }
+        
+        .home-right .mypic {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .home-right .contact {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
         main div ul {
             display: flex;
             justify-content: right;
